@@ -9,10 +9,10 @@ Intel RealSense SDK 2.0 is a cross-platform library for Intel® RealSense™ T26
 , and rerun the command. 
 
 - Add the server to the list of repositories:
-Ubuntu 16 LTS:
+1. Ubuntu 16 LTS:
 
         sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo xenial main" -u
-Ubuntu 18 LTS:
+2. Ubuntu 18 LTS:
 
         sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main" -u
 
