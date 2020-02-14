@@ -1,6 +1,6 @@
 Intel RealSense SDK 2.0 is a cross-platform library for Intel® RealSense™ T265 tracking camera.
 
-**Please Read full documentation to understand how to run librealsense-odometry because for that you fist need to understand what is RealSense and install all packages.**
+**Please read full documentation to understand how to run librealsense-odometry because for that you first need to understand what is RealSense and install all packages.**
 
 **BY- Shivani, Raghav**
 
@@ -138,7 +138,7 @@ Here we use .bag file as the device and modified the original code in such a way
 
 As explained above what the original sample code rs-save-to-disk do we modified it in a way that before it only start for a second and gives output only single frame but now in the *modified version* the program not stops and runs continously till user wants and gives the output frames continously, user need to terminate the program to stop.
 
-##Final Code to get the dataset with Intel t265(Tracking camera):
+## Final Code to get the dataset with Intel t265(Tracking camera):
 
 ### rs-trajectory-savetodisk_merge(matrix with images):
 Here we ned camera to run the program . In this code we merge the above modified code (1) bag to matrix by rs-trajectory and (2) save-to-disk sequence images together. By combining the above we are able to get the matrix text file and the frames for every matrix or we can say that by this code we get many frames according to camera movement and get the matrix for every frame which is stored or saved.
